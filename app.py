@@ -6,7 +6,7 @@ from flask_cors import CORS
 import bcrypt
 import datetime
 import jwt
-
+print("test")
 app = Flask(__name__)
 api = Api(app)
 CORS(app)
